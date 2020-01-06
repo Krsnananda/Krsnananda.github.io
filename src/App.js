@@ -1,42 +1,21 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.scss';
-import Popup from './Popup';
+import Menu from './components/menu/Menu';
+import Home from './components/Home';
+import Firefly from './components/Firefly';
 
-export default class App extends Component {
-  constructor(props){  
-    super(props);  
-    this.state = { showPopup: false };  
-    }  
-    
-      togglePopup() {  
-    this.setState({  
-         showPopup: !this.state.showPopup  
-    });  
-     }  
-    
-render() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <nav>
-        <ul class="menu">
-          <li><a href="#!">About me</a></li>
-          <li><a href="#!">Skills</a></li>
-          <li><a href="#!">Experience</a></li>
-          <li><a href="#!">Contact</a></li>
-        </ul>
-      </nav>
-      </header>
-      <div>  
-        <h1> Simple Popup Example In React Application </h1>  
-        <button onClick={this.togglePopup.bind(this)}> Click To Launch Popup</button>  
-        <Popup  
-          text='Click "Close Button" to hide popup'  
-          closePopup={this.togglePopup.bind(this)}  
-          />  
+      <div className="App">
+        <header>
+          <Menu/>
+        </header>
+        <body>
+          <Home />
+          <Firefly />
+        </body>
       </div>
-    </div>
   );
 }
-}
+
 
