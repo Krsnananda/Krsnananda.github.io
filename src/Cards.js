@@ -4,12 +4,14 @@ import shareEat from './images/share-eat.jpg';
 import nerdLogo from './images/nerd-logo.png';
 import ticTac from './images/tic-tac-toe.jpg';
 import wordpress from './images/wordpress.gif';
+import Menu from './components/menu/Menu';
 
 export default class Cards extends React.Component {
 
     render() {
         return(
             <div class="cards-wrapper">
+            <Menu />    
             <h1 id="#projects">Projects</h1>
             <div class="cols">
                       <div class="col" ontouchstart="this.classList.toggle('hover');">

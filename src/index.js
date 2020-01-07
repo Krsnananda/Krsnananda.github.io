@@ -5,12 +5,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Switch, Route } from 'react-router-dom';
 import Cards from './Cards';
+import Contact from './components/Contact';
 
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Route path="/" exact={true} component={App} />
             <Route path="/projects" component={Cards} />
+            <Route path="/contact" component={Contact} />
         </Switch>
     </BrowserRouter>
 , document.getElementById('root'));
