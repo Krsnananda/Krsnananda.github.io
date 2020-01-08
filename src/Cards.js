@@ -43,7 +43,9 @@ export default class Cards extends React.Component {
                                   <div class="inner">
                                         <p>Shopping Cart</p>
                                         <span>Simple Shopping Cart made with React and Redux</span>
-                                        <button className="links"> Demo </button>
+                                        <a href="http://cart-phi.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                            <button className="links"> Demo </button>
+                                        </a>
                                   </div>
                               </div>
                           </div>
@@ -59,7 +61,9 @@ export default class Cards extends React.Component {
                                   <div class="inner">
                                     <p>Tic Tac Toe</p>
                                     <span>Tic Tac Toe Game made with ReactJS</span>
+                                <a href="http://tic-tac-web.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                     <button className="links"> Demo </button>
+                                </a>
                                   </div>
                               </div>
                           </div>
@@ -75,7 +79,9 @@ export default class Cards extends React.Component {
                                   <div class="inner">
                                         <p>Aurum</p>
                                         <span>React and Wordpress Web App (Front-End Challenge)</span>
-                                        <button className="links"> Github </button>
+                                        <a href="https://github.com/Krsnananda/aurum" target="_blank" rel="noopener noreferrer">
+                                            <button className="links"> Github </button>
+                                        </a>
                                   </div>
                               </div>
                           </div>
