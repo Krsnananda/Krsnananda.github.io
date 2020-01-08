@@ -70,6 +70,14 @@ $config: (
 body {
     text-align: center;
     background-color: color(background);
+    height: 100%;
+}
+
+@media screen and (max-width:468px){
+    body{
+        height: 100vh!important;
+        width: 100vw;
+    }
 }
 
 .wrapper {

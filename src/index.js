@@ -7,6 +7,7 @@ import {BrowserRouter, Switch, Route } from 'react-router-dom';
 import Cards from './Cards';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
+import About from './components/About';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.render(
             <Route path="/projects" component={Cards} />
             <Route path="/contact" component={Contact} />
             <Route path="/skills" component={Skills} />
+            <Route path="/about" component={About} />
         </Switch>
     </BrowserRouter>
 , document.getElementById('root'));

@@ -8,8 +8,8 @@ export default class Menu extends React.Component {
         return (
             <nav>
                 <ul class="menu">
-                    <li><a href="#!">Home</a></li>
-                    <li><a href="#!">About me</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
                     <li><Link to="/skills">Skills</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
