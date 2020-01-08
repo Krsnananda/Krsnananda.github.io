@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Switch, Route } from 'react-router-dom';
 import Cards from './Cards';
 import Contact from './components/Contact';
+import Skills from './components/Skills';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -13,6 +14,7 @@ ReactDOM.render(
             <Route path="/" exact={true} component={App} />
             <Route path="/projects" component={Cards} />
             <Route path="/contact" component={Contact} />
+            <Route path="/skills" component={Skills} />
         </Switch>
     </BrowserRouter>
 , document.getElementById('root'));
