@@ -1,9 +1,6 @@
 import React from 'react';
 import Menu from '../components/menu/Menu';
 import './Skills.scss';
-import { FaBootstrap, FaReact, FaCss3, FaHtml5, FaSass, FaPhp, FaDatabase, FaNpm, FaGit, FaTerminal, FaJs } from 'react-icons/fa';
-import { IconContext } from "react-icons";
-import database from '../assets/icons8-banco-de-dados-100.png';
 import react from '../assets/icons8-react-100.png';
 import javascript from '../assets/icons8-javascript-100.png';
 import bootstrap from '../assets/icons8-bootstrap-100.png';
