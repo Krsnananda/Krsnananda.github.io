@@ -17,13 +17,12 @@
   }
 
   .skills-icon {
-    color: white;
+    padding: 7px;
     &:hover  {
-     transform:scale(1.2);
+     transform:scale(0.9);
      box-shadow:0 0 1em #3DCFCF;
   }
 }
-
   
   .flex-center-label {
     display: -webkit-box;
@@ -42,7 +41,7 @@
 
     label {
         margin-bottom: -25rem;
-        padding: 1.7rem;
+        padding: 1.5rem;
         font-size: 21px;
     }
   }

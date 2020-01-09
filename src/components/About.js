@@ -13,7 +13,7 @@ export default class About extends React.Component {
                         About me
                     </div>
                     <div className="img-profile">
-                        <img src={profile} />
+                        <img src={profile} alt="profile" />
                     </div>
                     <div className="bio-text">
                         Hi, my name is Krsnananda and I am a brazilian Front-End developer passionate about UX/UI design
